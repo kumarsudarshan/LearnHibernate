@@ -15,8 +15,10 @@
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
         <property name="show_sql">true</property>
         <property name="hbm2ddl.auto">create</property>
-        <mapping class = "Student"/>
-        <mapping class = "Address"/>
+        <mapping class = "save.Student"/>
+        <mapping class = "save.Address"/>
+        <mapping class = "mappings.onetoone.Question"/>
+        <mapping class = "mappings.onetoone.Answer"/>
 
     </session-factory>
 </hibernate-configuration>

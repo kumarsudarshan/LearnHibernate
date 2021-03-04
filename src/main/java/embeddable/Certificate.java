@@ -1,3 +1,5 @@
+package embeddable;
+
 import javax.persistence.Embeddable;
 
 @Embeddable
@@ -33,7 +35,7 @@ public class Certificate {
 
     @Override
     public String toString() {
-        return "Certificate{" +
+        return "embeddable.Certificate{" +
                 "course='" + course + '\'' +
                 ", duration='" + duration + '\'' +
                 '}';

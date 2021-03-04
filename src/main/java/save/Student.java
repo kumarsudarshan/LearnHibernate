@@ -1,3 +1,7 @@
+package save;
+
+import embeddable.Certificate;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -8,7 +12,7 @@ public class Student {
     private int Id;
     private String name;
     private String city;
-    private Certificate certificate;
+    private Certificate certificate; // check in DB wheater 2 column under Certificate (course and duration) created or not.
 
     public Student() {
     }
@@ -53,7 +57,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "save.Student{" +
                 "Id=" + Id +
                 ", name='" + name + '\'' +
                 ", city='" + city + '\'' +

@@ -1,3 +1,5 @@
+package save;
+
 import javax.persistence.*;
 import java.util.Arrays;
 import java.util.Date;
@@ -101,7 +103,7 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address{" +
+        return "save.Address{" +
                 "addressId=" + addressId +
                 ", street='" + street + '\'' +
                 ", city='" + city + '\'' +
