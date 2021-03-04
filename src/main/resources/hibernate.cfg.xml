@@ -17,8 +17,8 @@
         <property name="hbm2ddl.auto">create</property>
         <mapping class = "save.Student"/>
         <mapping class = "save.Address"/>
-        <mapping class = "mappings.onetoone.Question"/>
-        <mapping class = "mappings.onetoone.Answer"/>
+        <mapping class = "mappings.onetomany.Question"/>
+        <mapping class = "mappings.onetomany.Answer"/>
 
     </session-factory>
 </hibernate-configuration>
